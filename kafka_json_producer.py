@@ -11,14 +11,14 @@ from typing import List
 
 FILE_PATH = "/Users/shashankmishra/Desktop/Kafka Classes/Confluen Kafka Setup/Confluent-Kafka-Setup/cardekho_dataset.csv"
 columns = ['order_number', 'order_date', 'item_name', 'quantity', 'product_price', 'total_products']
-API_KEY = 'HNUA2KUYENIP44PV'
-ENDPOINT_SCHEMA_URL  = 'https://psrc-35wr2.us-central1.gcp.confluent.cloud'
-API_SECRET_KEY = 'TH5n14kG1JAD6b8rmf92Y6wyXPY66De2kzbiZUS0jytRfkxpEM4rWdlGVSsM/nFR'
-BOOTSTRAP_SERVER = 'pkc-lzvrd.us-west4.gcp.confluent.cloud:9092'
+API_KEY = 'JU6N5Q2XOSQGX4FB'
+ENDPOINT_SCHEMA_URL  = 'https://psrc-mw0d1.us-east-2.aws.confluent.cloud'
+API_SECRET_KEY = 'MFoRvmiB8LIgBrAxdX+zEpfNvYGoGX9iBIt3RgAfmIVibw0EqB/otBjU6FnfBrmd'
+BOOTSTRAP_SERVER = 'pkc-ymrq7.us-east-2.aws.confluent.cloud:9092'
 SECURITY_PROTOCOL = 'SASL_SSL'
 SSL_MACHENISM = 'PLAIN'
-SCHEMA_REGISTRY_API_KEY = 'PBEUUAHOC2GTPJWT'
-SCHEMA_REGISTRY_API_SECRET = 'EuAq+lp9CJYCs2n/TKOdhk9C2bbMl0ZRyE6KfYJ0v2Ng6anqHnLzqAtCjSwMSE+Y'
+SCHEMA_REGISTRY_API_KEY = 'AW4I7AMZQRA2Z4LQ'
+SCHEMA_REGISTRY_API_SECRET = 'ERAlTZpBGL1dLjQwYur+/B7kF1s0F6YarOHowicjJ0skQjvKBVoLFxPUIgybuF7k'
 
 
 def sasl_conf():
