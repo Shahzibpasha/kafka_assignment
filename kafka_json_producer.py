@@ -9,7 +9,7 @@ from confluent_kafka.schema_registry.json_schema import JSONSerializer
 import pandas as pd
 from typing import List
 
-FILE_PATH = "/Users/shashankmishra/Desktop/Kafka Classes/Confluen Kafka Setup/Confluent-Kafka-Setup/cardekho_dataset.csv"
+FILE_PATH = "E:\BID DATA engineer\4.KAFKA CLASS\KAFKA aasignment"
 columns = ['order_number', 'order_date', 'item_name', 'quantity', 'product_price', 'total_products']
 API_KEY = 'JU6N5Q2XOSQGX4FB'
 ENDPOINT_SCHEMA_URL  = 'https://psrc-mw0d1.us-east-2.aws.confluent.cloud'
