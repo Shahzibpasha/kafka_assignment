@@ -2,7 +2,7 @@
 
 Download Data Link -> https://github.com/shashank-mishra219/Confluent-Kafka-Setup/blob/main/restaurant_orders.csv
 
-Complete the given below task to finish this assignment.
+Complete the given below task to finish this assignment
 
 1. Setup Confluent Kafka Account
 2. Create one kafka topic named as "restaurent-take-away-data" with 3 partitions
