@@ -5,6 +5,16 @@ from confluent_kafka.serialization import SerializationContext, MessageField
 from confluent_kafka.schema_registry import SchemaRegistryClient
 from confluent_kafka.schema_registry.json_schema import JSONDeserializer
 
+API_KEY = 'JU6N5Q2XOSQGX4FB'
+ENDPOINT_SCHEMA_URL  = 'https://psrc-mw0d1.us-east-2.aws.confluent.cloud'
+API_SECRET_KEY = 'MFoRvmiB8LIgBrAxdX+zEpfNvYGoGX9iBIt3RgAfmIVibw0EqB/otBjU6FnfBrmd'
+BOOTSTRAP_SERVER = 'pkc-ymrq7.us-east-2.aws.confluent.cloud:9092'
+SECURITY_PROTOCOL = 'SASL_SSL'
+SSL_MACHENISM = 'PLAIN'
+SCHEMA_REGISTRY_API_KEY = 'AW4I7AMZQRA2Z4LQ'
+SCHEMA_REGISTRY_API_SECRET = 'ERAlTZpBGL1dLjQwYur+/B7kF1s0F6YarOHowicjJ0skQjvKBVoLFxPUIgybuF7k'
+
+
 def sasl_conf():
     sasl_conf = {'sasl.mechanism': SSL_MACHENISM,
                  # Set to SASL_SSL to enable TLS support.
